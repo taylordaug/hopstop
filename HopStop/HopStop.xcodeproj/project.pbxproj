@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1798ED1EBE3985007837AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1798EC1EBE3985007837AF /* AppDelegate.swift */; };
+		0F1798EF1EBE3985007837AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1798EE1EBE3985007837AF /* ViewController.swift */; };
+		0F1798F21EBE3985007837AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1798F01EBE3985007837AF /* Main.storyboard */; };
+		0F1798F41EBE3985007837AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1798F31EBE3985007837AF /* Assets.xcassets */; };
+		0F1798F71EBE3985007837AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1798F51EBE3985007837AF /* LaunchScreen.storyboard */; };
+		0F1799021EBE3985007837AF /* HopStopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1799011EBE3985007837AF /* HopStopTests.swift */; };
+		0F17990D1EBE3985007837AF /* HopStopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17990C1EBE3985007837AF /* HopStopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F1798FE1EBE3985007837AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F1798E11EBE3985007837AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1798E81EBE3985007837AF;
+			remoteInfo = HopStop;
+		};
+		0F1799091EBE3985007837AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F1798E11EBE3985007837AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1798E81EBE3985007837AF;
+			remoteInfo = HopStop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1798E91EBE3985007837AF /* HopStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1798EC1EBE3985007837AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F1798EE1EBE3985007837AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F1798F11EBE3985007837AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F1798F31EBE3985007837AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1798F61EBE3985007837AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F1798F81EBE3985007837AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1798FD1EBE3985007837AF /* HopStopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopStopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1799011EBE3985007837AF /* HopStopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopStopTests.swift; sourceTree = "<group>"; };
+		0F1799031EBE3985007837AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1799081EBE3985007837AF /* HopStopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopStopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F17990C1EBE3985007837AF /* HopStopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopStopUITests.swift; sourceTree = "<group>"; };
+		0F17990E1EBE3985007837AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1798E61EBE3985007837AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1798FA1EBE3985007837AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1799051EBE3985007837AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1798E01EBE3985007837AF = {
+			isa = PBXGroup;
+			children = (
+				0F1798EB1EBE3985007837AF /* HopStop */,
+				0F1799001EBE3985007837AF /* HopStopTests */,
+				0F17990B1EBE3985007837AF /* HopStopUITests */,
+				0F1798EA1EBE3985007837AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F1798EA1EBE3985007837AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1798E91EBE3985007837AF /* HopStop.app */,
+				0F1798FD1EBE3985007837AF /* HopStopTests.xctest */,
+				0F1799081EBE3985007837AF /* HopStopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1798EB1EBE3985007837AF /* HopStop */ = {
+			isa = PBXGroup;
+			children = (
+				0F1798EC1EBE3985007837AF /* AppDelegate.swift */,
+				0F1798EE1EBE3985007837AF /* ViewController.swift */,
+				0F1798F01EBE3985007837AF /* Main.storyboard */,
+				0F1798F31EBE3985007837AF /* Assets.xcassets */,
+				0F1798F51EBE3985007837AF /* LaunchScreen.storyboard */,
+				0F1798F81EBE3985007837AF /* Info.plist */,
+			);
+			path = HopStop;
+			sourceTree = "<group>";
+		};
+		0F1799001EBE3985007837AF /* HopStopTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1799011EBE3985007837AF /* HopStopTests.swift */,
+				0F1799031EBE3985007837AF /* Info.plist */,
+			);
+			path = HopStopTests;
+			sourceTree = "<group>";
+		};
+		0F17990B1EBE3985007837AF /* HopStopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F17990C1EBE3985007837AF /* HopStopUITests.swift */,
+				0F17990E1EBE3985007837AF /* Info.plist */,
+			);
+			path = HopStopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1798E81EBE3985007837AF /* HopStop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1799111EBE3985007837AF /* Build configuration list for PBXNativeTarget "HopStop" */;
+			buildPhases = (
+				0F1798E51EBE3985007837AF /* Sources */,
+				0F1798E61EBE3985007837AF /* Frameworks */,
+				0F1798E71EBE3985007837AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopStop;
+			productName = HopStop;
+			productReference = 0F1798E91EBE3985007837AF /* HopStop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F1798FC1EBE3985007837AF /* HopStopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1799141EBE3985007837AF /* Build configuration list for PBXNativeTarget "HopStopTests" */;
+			buildPhases = (
+				0F1798F91EBE3985007837AF /* Sources */,
+				0F1798FA1EBE3985007837AF /* Frameworks */,
+				0F1798FB1EBE3985007837AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F1798FF1EBE3985007837AF /* PBXTargetDependency */,
+			);
+			name = HopStopTests;
+			productName = HopStopTests;
+			productReference = 0F1798FD1EBE3985007837AF /* HopStopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F1799071EBE3985007837AF /* HopStopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1799171EBE3985007837AF /* Build configuration list for PBXNativeTarget "HopStopUITests" */;
+			buildPhases = (
+				0F1799041EBE3985007837AF /* Sources */,
+				0F1799051EBE3985007837AF /* Frameworks */,
+				0F1799061EBE3985007837AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F17990A1EBE3985007837AF /* PBXTargetDependency */,
+			);
+			name = HopStopUITests;
+			productName = HopStopUITests;
+			productReference = 0F1799081EBE3985007837AF /* HopStopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F1798E11EBE3985007837AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HopStop;
+				TargetAttributes = {
+					0F1798E81EBE3985007837AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R79L9H9M85;
+						ProvisioningStyle = Automatic;
+					};
+					0F1798FC1EBE3985007837AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R79L9H9M85;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F1798E81EBE3985007837AF;
+					};
+					0F1799071EBE3985007837AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R79L9H9M85;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F1798E81EBE3985007837AF;
+					};
+				};
+			};
+			buildConfigurationList = 0F1798E41EBE3985007837AF /* Build configuration list for PBXProject "HopStop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F1798E01EBE3985007837AF;
+			productRefGroup = 0F1798EA1EBE3985007837AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F1798E81EBE3985007837AF /* HopStop */,
+				0F1798FC1EBE3985007837AF /* HopStopTests */,
+				0F1799071EBE3985007837AF /* HopStopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1798E71EBE3985007837AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1798F71EBE3985007837AF /* LaunchScreen.storyboard in Resources */,
+				0F1798F41EBE3985007837AF /* Assets.xcassets in Resources */,
+				0F1798F21EBE3985007837AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1798FB1EBE3985007837AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1799061EBE3985007837AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1798E51EBE3985007837AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1798EF1EBE3985007837AF /* ViewController.swift in Sources */,
+				0F1798ED1EBE3985007837AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1798F91EBE3985007837AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1799021EBE3985007837AF /* HopStopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1799041EBE3985007837AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F17990D1EBE3985007837AF /* HopStopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F1798FF1EBE3985007837AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1798E81EBE3985007837AF /* HopStop */;
+			targetProxy = 0F1798FE1EBE3985007837AF /* PBXContainerItemProxy */;
+		};
+		0F17990A1EBE3985007837AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1798E81EBE3985007837AF /* HopStop */;
+			targetProxy = 0F1799091EBE3985007837AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F1798F01EBE3985007837AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1798F11EBE3985007837AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F1798F51EBE3985007837AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1798F61EBE3985007837AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F17990F1EBE3985007837AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F1799101EBE3985007837AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F1799121EBE3985007837AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R79L9H9M85;
+				INFOPLIST_FILE = HopStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HopStop.HopStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0F1799131EBE3985007837AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R79L9H9M85;
+				INFOPLIST_FILE = HopStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HopStop.HopStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0F1799151EBE3985007837AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R79L9H9M85;
+				INFOPLIST_FILE = HopStopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HopStop.HopStopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopStop.app/HopStop";
+			};
+			name = Debug;
+		};
+		0F1799161EBE3985007837AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R79L9H9M85;
+				INFOPLIST_FILE = HopStopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HopStop.HopStopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopStop.app/HopStop";
+			};
+			name = Release;
+		};
+		0F1799181EBE3985007837AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R79L9H9M85;
+				INFOPLIST_FILE = HopStopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HopStop.HopStopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HopStop;
+			};
+			name = Debug;
+		};
+		0F1799191EBE3985007837AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R79L9H9M85;
+				INFOPLIST_FILE = HopStopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HopStop.HopStopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HopStop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1798E41EBE3985007837AF /* Build configuration list for PBXProject "HopStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F17990F1EBE3985007837AF /* Debug */,
+				0F1799101EBE3985007837AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1799111EBE3985007837AF /* Build configuration list for PBXNativeTarget "HopStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1799121EBE3985007837AF /* Debug */,
+				0F1799131EBE3985007837AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F1799141EBE3985007837AF /* Build configuration list for PBXNativeTarget "HopStopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1799151EBE3985007837AF /* Debug */,
+				0F1799161EBE3985007837AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F1799171EBE3985007837AF /* Build configuration list for PBXNativeTarget "HopStopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1799181EBE3985007837AF /* Debug */,
+				0F1799191EBE3985007837AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F1798E11EBE3985007837AF /* Project object */;
+}
